@@ -40,7 +40,7 @@ import com.dropbox.sign.ApiException;
     TemplateResponseFieldAvgTextLength.JSON_PROPERTY_NUM_CHARS_PER_LINE
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TemplateResponseFieldAvgTextLength {
   public static final String JSON_PROPERTY_NUM_LINES = "num_lines";
   private Integer numLines;
@@ -75,7 +75,7 @@ public class TemplateResponseFieldAvgTextLength {
    * Number of lines.
    * @return numLines
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Number of lines.")
   @JsonProperty(JSON_PROPERTY_NUM_LINES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -101,7 +101,7 @@ public class TemplateResponseFieldAvgTextLength {
    * Number of characters per line.
    * @return numCharsPerLine
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Number of characters per line.")
   @JsonProperty(JSON_PROPERTY_NUM_CHARS_PER_LINE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

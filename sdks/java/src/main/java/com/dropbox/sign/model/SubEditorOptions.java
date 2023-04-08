@@ -40,7 +40,7 @@ import com.dropbox.sign.ApiException;
     SubEditorOptions.JSON_PROPERTY_ALLOW_EDIT_DOCUMENTS
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class SubEditorOptions {
   public static final String JSON_PROPERTY_ALLOW_EDIT_SIGNERS = "allow_edit_signers";
   private Boolean allowEditSigners = false;
@@ -75,7 +75,7 @@ public class SubEditorOptions {
    * Allows requesters to edit the list of signers
    * @return allowEditSigners
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Allows requesters to edit the list of signers")
   @JsonProperty(JSON_PROPERTY_ALLOW_EDIT_SIGNERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -101,7 +101,7 @@ public class SubEditorOptions {
    * Allows requesters to edit documents, including delete and add
    * @return allowEditDocuments
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Allows requesters to edit documents, including delete and add")
   @JsonProperty(JSON_PROPERTY_ALLOW_EDIT_DOCUMENTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

@@ -44,7 +44,7 @@ import com.dropbox.sign.ApiException;
     SignatureRequestResponseAttachment.JSON_PROPERTY_UPLOADED_AT
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class SignatureRequestResponseAttachment {
   public static final String JSON_PROPERTY_ID = "id";
   private String id;
@@ -91,7 +91,7 @@ public class SignatureRequestResponseAttachment {
    * The unique ID for this attachment.
    * @return id
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The unique ID for this attachment.")
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -117,7 +117,7 @@ public class SignatureRequestResponseAttachment {
    * The Signer this attachment is assigned to.
    * @return signer
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The Signer this attachment is assigned to.")
   @JsonProperty(JSON_PROPERTY_SIGNER)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -143,7 +143,7 @@ public class SignatureRequestResponseAttachment {
    * The name of this attachment.
    * @return name
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The name of this attachment.")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -169,7 +169,7 @@ public class SignatureRequestResponseAttachment {
    * A boolean value denoting if this attachment is required.
    * @return required
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "A boolean value denoting if this attachment is required.")
   @JsonProperty(JSON_PROPERTY_REQUIRED)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -195,7 +195,7 @@ public class SignatureRequestResponseAttachment {
    * Instructions for Signer.
    * @return instructions
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Instructions for Signer.")
   @JsonProperty(JSON_PROPERTY_INSTRUCTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -221,7 +221,7 @@ public class SignatureRequestResponseAttachment {
    * Timestamp when attachment was uploaded by Signer.
    * @return uploadedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Timestamp when attachment was uploaded by Signer.")
   @JsonProperty(JSON_PROPERTY_UPLOADED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

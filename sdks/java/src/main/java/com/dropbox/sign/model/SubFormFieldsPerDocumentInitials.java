@@ -52,7 +52,7 @@ import com.dropbox.sign.ApiException;
     SubFormFieldsPerDocumentInitials.JSON_PROPERTY_TYPE
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type", visible = true)
 @JsonSubTypes({
   @JsonSubTypes.Type(value = SubFormFieldsPerDocumentCheckbox.class, name = "checkbox"),
@@ -98,7 +98,7 @@ public class SubFormFieldsPerDocumentInitials extends SubFormFieldsPerDocumentBa
    * An input field for initials. Use the &#x60;SubFormFieldsPerDocumentInitials&#x60; class.
    * @return type
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "An input field for initials. Use the `SubFormFieldsPerDocumentInitials` class.")
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)

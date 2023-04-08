@@ -3,8 +3,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.+'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+//        classpath 'com.android.tools.build:gradle:2.3.+'
+//        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         classpath 'com.diffplug.spotless:spotless-plugin-gradle:5.17.1'
     }
 }
@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 apply plugin: 'com.diffplug.spotless'
-apply plugin: 'signing'
+//apply plugin: 'signing'
 
 group = 'com.dropbox.sign'
 archivesBaseName = 'dropbox-sign'
@@ -40,10 +40,10 @@ if (JavaVersion.current().isJava8Compatible()) {
     }
 }
 
-task javadocJar(type: Jar) {
-    classifier = 'javadoc'
-    from javadoc
-}
+//task javadocJar(type: Jar) {
+//    classifier = 'javadoc'
+//    from javadoc
+//}
 
 task sourcesJar(type: Jar) {
     classifier = 'sources'
@@ -64,7 +64,7 @@ processResources {
 }
 
 artifacts {
-    archives javadocJar, sourcesJar, fatJar
+    archives  sourcesJar, fatJar
 }
 
 publishing {
@@ -118,8 +118,8 @@ ext {
     swagger_annotations_version = "1.6.3"
     jackson_version = "2.13.0"
     jackson_databind_version = "2.13.0"
-    jakarta_annotation_version = "1.3.5"
-    jersey_version = "2.35"
+    jakarta_annotation_version = "2.1.1"
+    jersey_version = "3.0.8"
     junit_version = "4.13.2"
     threetenbp_version = "2.9.10"
     mockito_version = "3.12.4"

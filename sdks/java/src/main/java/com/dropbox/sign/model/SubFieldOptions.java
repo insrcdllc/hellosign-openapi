@@ -39,7 +39,7 @@ import com.dropbox.sign.ApiException;
     SubFieldOptions.JSON_PROPERTY_DATE_FORMAT
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class SubFieldOptions {
   /**
    * Allows requester to specify the date format (see list of allowed [formats](/api/reference/constants/#date-formats))  **Note**: Only available for Premium and higher.
@@ -114,7 +114,7 @@ public class SubFieldOptions {
    * Allows requester to specify the date format (see list of allowed [formats](/api/reference/constants/#date-formats))  **Note**: Only available for Premium and higher.
    * @return dateFormat
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "Allows requester to specify the date format (see list of allowed [formats](/api/reference/constants/#date-formats))  **Note**: Only available for Premium and higher.")
   @JsonProperty(JSON_PROPERTY_DATE_FORMAT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)

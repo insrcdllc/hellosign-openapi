@@ -39,7 +39,7 @@ import com.dropbox.sign.ApiException;
     ApiAppResponseOptions.JSON_PROPERTY_CAN_INSERT_EVERYWHERE
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class ApiAppResponseOptions {
   public static final String JSON_PROPERTY_CAN_INSERT_EVERYWHERE = "can_insert_everywhere";
   private Boolean canInsertEverywhere;
@@ -71,7 +71,7 @@ public class ApiAppResponseOptions {
    * Boolean denoting if signers can \&quot;Insert Everywhere\&quot; in one click while signing a document
    * @return canInsertEverywhere
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Boolean denoting if signers can \"Insert Everywhere\" in one click while signing a document")
   @JsonProperty(JSON_PROPERTY_CAN_INSERT_EVERYWHERE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

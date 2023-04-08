@@ -50,7 +50,7 @@ import com.dropbox.sign.ApiException;
     ApiAppUpdateRequest.JSON_PROPERTY_WHITE_LABELING_OPTIONS
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class ApiAppUpdateRequest {
   public static final String JSON_PROPERTY_CALLBACK_URL = "callback_url";
   private String callbackUrl;
@@ -100,7 +100,7 @@ public class ApiAppUpdateRequest {
    * The URL at which the API App should receive event callbacks.
    * @return callbackUrl
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The URL at which the API App should receive event callbacks.")
   @JsonProperty(JSON_PROPERTY_CALLBACK_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -126,7 +126,7 @@ public class ApiAppUpdateRequest {
    * An image file to use as a custom logo in embedded contexts. (Only applies to some API plans)
    * @return customLogoFile
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "An image file to use as a custom logo in embedded contexts. (Only applies to some API plans)")
   @JsonProperty(JSON_PROPERTY_CUSTOM_LOGO_FILE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -160,7 +160,7 @@ public class ApiAppUpdateRequest {
    * The domain names the ApiApp will be associated with.
    * @return domains
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The domain names the ApiApp will be associated with.")
   @JsonProperty(JSON_PROPERTY_DOMAINS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -186,7 +186,7 @@ public class ApiAppUpdateRequest {
    * The name you want to assign to the ApiApp.
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The name you want to assign to the ApiApp.")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -212,7 +212,7 @@ public class ApiAppUpdateRequest {
    * Get oauth
    * @return oauth
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_OAUTH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -238,7 +238,7 @@ public class ApiAppUpdateRequest {
    * Get options
    * @return options
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_OPTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -264,7 +264,7 @@ public class ApiAppUpdateRequest {
    * Get whiteLabelingOptions
    * @return whiteLabelingOptions
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_WHITE_LABELING_OPTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

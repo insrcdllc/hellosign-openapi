@@ -39,7 +39,7 @@ import com.dropbox.sign.ApiException;
     OAuthTokenRefreshRequest.JSON_PROPERTY_REFRESH_TOKEN
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class OAuthTokenRefreshRequest {
   public static final String JSON_PROPERTY_GRANT_TYPE = "grant_type";
   private String grantType = "refresh_token";
@@ -74,7 +74,7 @@ public class OAuthTokenRefreshRequest {
    * When refreshing an existing token use &#x60;refresh_token&#x60;.
    * @return grantType
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "When refreshing an existing token use `refresh_token`.")
   @JsonProperty(JSON_PROPERTY_GRANT_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -100,7 +100,7 @@ public class OAuthTokenRefreshRequest {
    * The token provided when you got the expired access token.
    * @return refreshToken
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The token provided when you got the expired access token.")
   @JsonProperty(JSON_PROPERTY_REFRESH_TOKEN)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)

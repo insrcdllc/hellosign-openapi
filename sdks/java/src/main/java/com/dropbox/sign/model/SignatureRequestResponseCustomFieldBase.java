@@ -47,7 +47,7 @@ import com.dropbox.sign.ApiException;
     SignatureRequestResponseCustomFieldBase.JSON_PROPERTY_EDITOR
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type", visible = true)
 @JsonSubTypes({
   @JsonSubTypes.Type(value = SignatureRequestResponseCustomFieldCheckbox.class, name = "SignatureRequestResponseCustomFieldCheckbox"),
@@ -99,7 +99,7 @@ public class SignatureRequestResponseCustomFieldBase {
    * The type of this Custom Field. Only &#39;text&#39; and &#39;checkbox&#39; are currently supported.
    * @return type
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The type of this Custom Field. Only 'text' and 'checkbox' are currently supported.")
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -125,7 +125,7 @@ public class SignatureRequestResponseCustomFieldBase {
    * The name of the Custom Field.
    * @return name
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The name of the Custom Field.")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -151,7 +151,7 @@ public class SignatureRequestResponseCustomFieldBase {
    * A boolean value denoting if this field is required.
    * @return required
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "A boolean value denoting if this field is required.")
   @JsonProperty(JSON_PROPERTY_REQUIRED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -177,7 +177,7 @@ public class SignatureRequestResponseCustomFieldBase {
    * The unique ID for this field.
    * @return apiId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The unique ID for this field.")
   @JsonProperty(JSON_PROPERTY_API_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -203,7 +203,7 @@ public class SignatureRequestResponseCustomFieldBase {
    * The name of the Role that is able to edit this field.
    * @return editor
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The name of the Role that is able to edit this field.")
   @JsonProperty(JSON_PROPERTY_EDITOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

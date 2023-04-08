@@ -41,7 +41,7 @@ import com.dropbox.sign.ApiException;
     SignatureRequestUpdateRequest.JSON_PROPERTY_EXPIRES_AT
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class SignatureRequestUpdateRequest {
   public static final String JSON_PROPERTY_SIGNATURE_ID = "signature_id";
   private String signatureId;
@@ -82,7 +82,7 @@ public class SignatureRequestUpdateRequest {
    * The signature ID for the recipient.
    * @return signatureId
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The signature ID for the recipient.")
   @JsonProperty(JSON_PROPERTY_SIGNATURE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -108,7 +108,7 @@ public class SignatureRequestUpdateRequest {
    * The new email address for the recipient.  **NOTE**: Optional if &#x60;name&#x60; is provided.
    * @return emailAddress
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The new email address for the recipient.  **NOTE**: Optional if `name` is provided.")
   @JsonProperty(JSON_PROPERTY_EMAIL_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -134,7 +134,7 @@ public class SignatureRequestUpdateRequest {
    * The new name for the recipient.  **NOTE**: Optional if &#x60;email_address&#x60; is provided.
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The new name for the recipient.  **NOTE**: Optional if `email_address` is provided.")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -160,7 +160,7 @@ public class SignatureRequestUpdateRequest {
    * The new time when the signature request will expire. Unsigned signatures will be moved to the expired status, and no longer signable. See [Signature Request Expiration Date](https://developers.hellosign.com/docs/signature-request/expiration/) for details.
    * @return expiresAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The new time when the signature request will expire. Unsigned signatures will be moved to the expired status, and no longer signable. See [Signature Request Expiration Date](https://developers.hellosign.com/docs/signature-request/expiration/) for details.")
   @JsonProperty(JSON_PROPERTY_EXPIRES_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

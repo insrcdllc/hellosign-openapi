@@ -42,7 +42,7 @@ import com.dropbox.sign.ApiException;
     ReportCreateRequest.JSON_PROPERTY_START_DATE
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class ReportCreateRequest {
   public static final String JSON_PROPERTY_END_DATE = "end_date";
   private String endDate;
@@ -115,7 +115,7 @@ public class ReportCreateRequest {
    * The (inclusive) end date for the report data in &#x60;MM/DD/YYYY&#x60; format.
    * @return endDate
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The (inclusive) end date for the report data in `MM/DD/YYYY` format.")
   @JsonProperty(JSON_PROPERTY_END_DATE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -146,7 +146,7 @@ public class ReportCreateRequest {
    * The type(s) of the report you are requesting. Allowed values are &#x60;user_activity&#x60; and &#x60;document_status&#x60;. User activity reports contain list of all users and their activity during the specified date range. Document status report contain a list of signature requests created in the specified time range (and their status).
    * @return reportType
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The type(s) of the report you are requesting. Allowed values are `user_activity` and `document_status`. User activity reports contain list of all users and their activity during the specified date range. Document status report contain a list of signature requests created in the specified time range (and their status).")
   @JsonProperty(JSON_PROPERTY_REPORT_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -172,7 +172,7 @@ public class ReportCreateRequest {
    * The (inclusive) start date for the report data in &#x60;MM/DD/YYYY&#x60; format.
    * @return startDate
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "The (inclusive) start date for the report data in `MM/DD/YYYY` format.")
   @JsonProperty(JSON_PROPERTY_START_DATE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)

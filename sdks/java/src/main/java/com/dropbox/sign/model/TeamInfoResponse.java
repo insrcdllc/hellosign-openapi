@@ -43,7 +43,7 @@ import com.dropbox.sign.ApiException;
     TeamInfoResponse.JSON_PROPERTY_NUM_SUB_TEAMS
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TeamInfoResponse {
   public static final String JSON_PROPERTY_TEAM_ID = "team_id";
   private String teamId;
@@ -87,7 +87,7 @@ public class TeamInfoResponse {
    * The id of a team
    * @return teamId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The id of a team")
   @JsonProperty(JSON_PROPERTY_TEAM_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -113,7 +113,7 @@ public class TeamInfoResponse {
    * Get teamParent
    * @return teamParent
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_TEAM_PARENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -139,7 +139,7 @@ public class TeamInfoResponse {
    * The name of a team
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The name of a team")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -165,7 +165,7 @@ public class TeamInfoResponse {
    * Number of members within a team
    * @return numMembers
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Number of members within a team")
   @JsonProperty(JSON_PROPERTY_NUM_MEMBERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -191,7 +191,7 @@ public class TeamInfoResponse {
    * Number of sub teams within a team
    * @return numSubTeams
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Number of sub teams within a team")
   @JsonProperty(JSON_PROPERTY_NUM_SUB_TEAMS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

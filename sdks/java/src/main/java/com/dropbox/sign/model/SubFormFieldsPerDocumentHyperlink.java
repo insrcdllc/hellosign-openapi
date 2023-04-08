@@ -54,7 +54,7 @@ import com.dropbox.sign.ApiException;
     SubFormFieldsPerDocumentHyperlink.JSON_PROPERTY_CONTENT_URL
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type", visible = true)
 @JsonSubTypes({
   @JsonSubTypes.Type(value = SubFormFieldsPerDocumentCheckbox.class, name = "checkbox"),
@@ -106,7 +106,7 @@ public class SubFormFieldsPerDocumentHyperlink extends SubFormFieldsPerDocumentB
    * A hyperlink field. Use the &#x60;SubFormFieldsPerDocumentHyperlink&#x60; class.
    * @return type
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "A hyperlink field. Use the `SubFormFieldsPerDocumentHyperlink` class.")
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -132,7 +132,7 @@ public class SubFormFieldsPerDocumentHyperlink extends SubFormFieldsPerDocumentB
    * Link Text.
    * @return content
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "Link Text.")
   @JsonProperty(JSON_PROPERTY_CONTENT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -158,7 +158,7 @@ public class SubFormFieldsPerDocumentHyperlink extends SubFormFieldsPerDocumentB
    * Link URL.
    * @return contentUrl
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "Link URL.")
   @JsonProperty(JSON_PROPERTY_CONTENT_URL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)

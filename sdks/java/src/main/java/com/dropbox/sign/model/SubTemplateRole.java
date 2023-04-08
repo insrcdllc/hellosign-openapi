@@ -39,7 +39,7 @@ import com.dropbox.sign.ApiException;
     SubTemplateRole.JSON_PROPERTY_ORDER
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class SubTemplateRole {
   public static final String JSON_PROPERTY_NAME = "name";
   private String name;
@@ -74,7 +74,7 @@ public class SubTemplateRole {
    * The role name of the signer that will be displayed when the template is used to create a signature request.
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The role name of the signer that will be displayed when the template is used to create a signature request.")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -100,7 +100,7 @@ public class SubTemplateRole {
    * The order in which this signer role is required to sign.
    * @return order
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The order in which this signer role is required to sign.")
   @JsonProperty(JSON_PROPERTY_ORDER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

@@ -45,7 +45,7 @@ import com.dropbox.sign.ApiException;
     TeamResponse.JSON_PROPERTY_INVITED_EMAILS
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TeamResponse {
   public static final String JSON_PROPERTY_NAME = "name";
   private String name;
@@ -86,7 +86,7 @@ public class TeamResponse {
    * The name of your Team
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The name of your Team")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -120,7 +120,7 @@ public class TeamResponse {
    * Get accounts
    * @return accounts
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_ACCOUNTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -154,7 +154,7 @@ public class TeamResponse {
    * A list of all Accounts that have an outstanding invitation to join your Team. Note that this response is a subset of the response parameters found in &#x60;GET /account&#x60;.
    * @return invitedAccounts
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "A list of all Accounts that have an outstanding invitation to join your Team. Note that this response is a subset of the response parameters found in `GET /account`.")
   @JsonProperty(JSON_PROPERTY_INVITED_ACCOUNTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -188,7 +188,7 @@ public class TeamResponse {
    * A list of email addresses that have an outstanding invitation to join your Team and do not yet have a Dropbox Sign account.
    * @return invitedEmails
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "A list of email addresses that have an outstanding invitation to join your Team and do not yet have a Dropbox Sign account.")
   @JsonProperty(JSON_PROPERTY_INVITED_EMAILS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

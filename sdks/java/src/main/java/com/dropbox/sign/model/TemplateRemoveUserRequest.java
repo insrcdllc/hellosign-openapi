@@ -39,7 +39,7 @@ import com.dropbox.sign.ApiException;
     TemplateRemoveUserRequest.JSON_PROPERTY_EMAIL_ADDRESS
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TemplateRemoveUserRequest {
   public static final String JSON_PROPERTY_ACCOUNT_ID = "account_id";
   private String accountId;
@@ -74,7 +74,7 @@ public class TemplateRemoveUserRequest {
    * The id or email address of the Account to remove access to the Template. The account id prevails if both are provided.
    * @return accountId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The id or email address of the Account to remove access to the Template. The account id prevails if both are provided.")
   @JsonProperty(JSON_PROPERTY_ACCOUNT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -100,7 +100,7 @@ public class TemplateRemoveUserRequest {
    * The id or email address of the Account to remove access to the Template. The account id prevails if both are provided.
    * @return emailAddress
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The id or email address of the Account to remove access to the Template. The account id prevails if both are provided.")
   @JsonProperty(JSON_PROPERTY_EMAIL_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

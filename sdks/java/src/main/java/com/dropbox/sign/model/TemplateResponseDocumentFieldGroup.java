@@ -40,7 +40,7 @@ import com.dropbox.sign.ApiException;
     TemplateResponseDocumentFieldGroup.JSON_PROPERTY_RULE
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TemplateResponseDocumentFieldGroup {
   public static final String JSON_PROPERTY_NAME = "name";
   private String name;
@@ -75,7 +75,7 @@ public class TemplateResponseDocumentFieldGroup {
    * The name of the form field group.
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The name of the form field group.")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -101,7 +101,7 @@ public class TemplateResponseDocumentFieldGroup {
    * Get rule
    * @return rule
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_RULE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

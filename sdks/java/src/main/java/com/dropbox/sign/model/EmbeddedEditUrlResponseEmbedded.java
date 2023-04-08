@@ -40,7 +40,7 @@ import com.dropbox.sign.ApiException;
     EmbeddedEditUrlResponseEmbedded.JSON_PROPERTY_EXPIRES_AT
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class EmbeddedEditUrlResponseEmbedded {
   public static final String JSON_PROPERTY_EDIT_URL = "edit_url";
   private String editUrl;
@@ -75,7 +75,7 @@ public class EmbeddedEditUrlResponseEmbedded {
    * A template url that can be opened in an iFrame.
    * @return editUrl
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "A template url that can be opened in an iFrame.")
   @JsonProperty(JSON_PROPERTY_EDIT_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -101,7 +101,7 @@ public class EmbeddedEditUrlResponseEmbedded {
    * The specific time that the the &#x60;edit_url&#x60; link expires, in epoch.
    * @return expiresAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The specific time that the the `edit_url` link expires, in epoch.")
   @JsonProperty(JSON_PROPERTY_EXPIRES_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

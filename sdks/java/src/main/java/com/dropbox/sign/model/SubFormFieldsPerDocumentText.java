@@ -59,7 +59,7 @@ import com.dropbox.sign.ApiException;
     SubFormFieldsPerDocumentText.JSON_PROPERTY_VALIDATION_CUSTOM_REGEX_FORMAT_LABEL
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type", visible = true)
 @JsonSubTypes({
   @JsonSubTypes.Type(value = SubFormFieldsPerDocumentCheckbox.class, name = "checkbox"),
@@ -177,7 +177,7 @@ public class SubFormFieldsPerDocumentText extends SubFormFieldsPerDocumentBase {
    * A text input field. Use the &#x60;SubFormFieldsPerDocumentText&#x60; class.
    * @return type
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "A text input field. Use the `SubFormFieldsPerDocumentText` class.")
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -203,7 +203,7 @@ public class SubFormFieldsPerDocumentText extends SubFormFieldsPerDocumentBase {
    * Placeholder value for text field.
    * @return placeholder
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Placeholder value for text field.")
   @JsonProperty(JSON_PROPERTY_PLACEHOLDER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -229,7 +229,7 @@ public class SubFormFieldsPerDocumentText extends SubFormFieldsPerDocumentBase {
    * Auto fill type for populating fields automatically. Check out the list of [auto fill types](/api/reference/constants/#auto-fill-types) to learn more about the possible values.
    * @return autoFillType
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Auto fill type for populating fields automatically. Check out the list of [auto fill types](/api/reference/constants/#auto-fill-types) to learn more about the possible values.")
   @JsonProperty(JSON_PROPERTY_AUTO_FILL_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -255,7 +255,7 @@ public class SubFormFieldsPerDocumentText extends SubFormFieldsPerDocumentBase {
    * Link two or more text fields. Enter data into one linked text field, which automatically fill all other linked text fields.
    * @return linkId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Link two or more text fields. Enter data into one linked text field, which automatically fill all other linked text fields.")
   @JsonProperty(JSON_PROPERTY_LINK_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -281,7 +281,7 @@ public class SubFormFieldsPerDocumentText extends SubFormFieldsPerDocumentBase {
    * Masks entered data. For more information see [Masking sensitive information](https://faq.hellosign.com/hc/en-us/articles/360040742811-Masking-sensitive-information). &#x60;true&#x60; for masking the data in a text field, otherwise &#x60;false&#x60;.
    * @return masked
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Masks entered data. For more information see [Masking sensitive information](https://faq.hellosign.com/hc/en-us/articles/360040742811-Masking-sensitive-information). `true` for masking the data in a text field, otherwise `false`.")
   @JsonProperty(JSON_PROPERTY_MASKED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -307,7 +307,7 @@ public class SubFormFieldsPerDocumentText extends SubFormFieldsPerDocumentBase {
    * Each text field may contain a &#x60;validation_type&#x60; parameter. Check out the list of [validation types](https://faq.hellosign.com/hc/en-us/articles/217115577) to learn more about the possible values.  **NOTE**: When using &#x60;custom_regex&#x60; you are required to pass a second parameter &#x60;validation_custom_regex&#x60; and you can optionally provide &#x60;validation_custom_regex_format_label&#x60; for the error message the user will see in case of an invalid value.
    * @return validationType
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Each text field may contain a `validation_type` parameter. Check out the list of [validation types](https://faq.hellosign.com/hc/en-us/articles/217115577) to learn more about the possible values.  **NOTE**: When using `custom_regex` you are required to pass a second parameter `validation_custom_regex` and you can optionally provide `validation_custom_regex_format_label` for the error message the user will see in case of an invalid value.")
   @JsonProperty(JSON_PROPERTY_VALIDATION_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -333,7 +333,7 @@ public class SubFormFieldsPerDocumentText extends SubFormFieldsPerDocumentBase {
    * Get validationCustomRegex
    * @return validationCustomRegex
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_VALIDATION_CUSTOM_REGEX)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -359,7 +359,7 @@ public class SubFormFieldsPerDocumentText extends SubFormFieldsPerDocumentBase {
    * Get validationCustomRegexFormatLabel
    * @return validationCustomRegexFormatLabel
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_VALIDATION_CUSTOM_REGEX_FORMAT_LABEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

@@ -40,7 +40,7 @@ import com.dropbox.sign.ApiException;
     WarningResponse.JSON_PROPERTY_WARNING_NAME
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class WarningResponse {
   public static final String JSON_PROPERTY_WARNING_MSG = "warning_msg";
   private String warningMsg;
@@ -75,7 +75,7 @@ public class WarningResponse {
    * Warning message
    * @return warningMsg
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "Warning message")
   @JsonProperty(JSON_PROPERTY_WARNING_MSG)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -101,7 +101,7 @@ public class WarningResponse {
    * Warning name
    * @return warningName
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "Warning name")
   @JsonProperty(JSON_PROPERTY_WARNING_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)

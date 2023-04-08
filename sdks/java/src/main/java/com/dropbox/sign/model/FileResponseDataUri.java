@@ -38,7 +38,7 @@ import com.dropbox.sign.ApiException;
     FileResponseDataUri.JSON_PROPERTY_DATA_URI
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class FileResponseDataUri {
   public static final String JSON_PROPERTY_DATA_URI = "data_uri";
   private String dataUri;
@@ -70,7 +70,7 @@ public class FileResponseDataUri {
    * File as base64 encoded string.
    * @return dataUri
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "File as base64 encoded string.")
   @JsonProperty(JSON_PROPERTY_DATA_URI)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

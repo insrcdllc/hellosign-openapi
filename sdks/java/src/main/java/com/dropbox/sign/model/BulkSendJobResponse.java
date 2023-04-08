@@ -42,7 +42,7 @@ import com.dropbox.sign.ApiException;
     BulkSendJobResponse.JSON_PROPERTY_CREATED_AT
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class BulkSendJobResponse {
   public static final String JSON_PROPERTY_BULK_SEND_JOB_ID = "bulk_send_job_id";
   private String bulkSendJobId;
@@ -83,7 +83,7 @@ public class BulkSendJobResponse {
    * The id of the BulkSendJob.
    * @return bulkSendJobId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The id of the BulkSendJob.")
   @JsonProperty(JSON_PROPERTY_BULK_SEND_JOB_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -109,7 +109,7 @@ public class BulkSendJobResponse {
    * The total amount of Signature Requests queued for sending.
    * @return total
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The total amount of Signature Requests queued for sending.")
   @JsonProperty(JSON_PROPERTY_TOTAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -135,7 +135,7 @@ public class BulkSendJobResponse {
    * True if you are the owner of this BulkSendJob, false if it&#39;s been shared with you by a team member.
    * @return isCreator
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "True if you are the owner of this BulkSendJob, false if it's been shared with you by a team member.")
   @JsonProperty(JSON_PROPERTY_IS_CREATOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -161,7 +161,7 @@ public class BulkSendJobResponse {
    * Time that the BulkSendJob was created.
    * @return createdAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Time that the BulkSendJob was created.")
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

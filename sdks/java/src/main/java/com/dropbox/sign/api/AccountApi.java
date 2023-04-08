@@ -6,7 +6,6 @@ import com.dropbox.sign.ApiResponse;
 import com.dropbox.sign.Configuration;
 import com.dropbox.sign.Pair;
 
-import javax.ws.rs.core.GenericType;
 
 import com.dropbox.sign.model.AccountCreateRequest;
 import com.dropbox.sign.model.AccountCreateResponse;
@@ -15,13 +14,15 @@ import com.dropbox.sign.model.AccountUpdateRequest;
 import com.dropbox.sign.model.AccountVerifyRequest;
 import com.dropbox.sign.model.AccountVerifyResponse;
 import com.dropbox.sign.model.ErrorResponse;
+import jakarta.annotation.Generated;
+import jakarta.ws.rs.core.GenericType;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class AccountApi {
   private ApiClient apiClient;
 

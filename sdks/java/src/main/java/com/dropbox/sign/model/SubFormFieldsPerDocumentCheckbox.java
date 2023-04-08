@@ -54,7 +54,7 @@ import com.dropbox.sign.ApiException;
     SubFormFieldsPerDocumentCheckbox.JSON_PROPERTY_GROUP
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type", visible = true)
 @JsonSubTypes({
   @JsonSubTypes.Type(value = SubFormFieldsPerDocumentCheckbox.class, name = "checkbox"),
@@ -106,7 +106,7 @@ public class SubFormFieldsPerDocumentCheckbox extends SubFormFieldsPerDocumentBa
    * A yes/no checkbox. Use the &#x60;SubFormFieldsPerDocumentCheckbox&#x60; class.
    * @return type
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "A yes/no checkbox. Use the `SubFormFieldsPerDocumentCheckbox` class.")
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -132,7 +132,7 @@ public class SubFormFieldsPerDocumentCheckbox extends SubFormFieldsPerDocumentBa
    * &#x60;true&#x60; for checking the checkbox field by default, otherwise &#x60;false&#x60;.
    * @return isChecked
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "`true` for checking the checkbox field by default, otherwise `false`.")
   @JsonProperty(JSON_PROPERTY_IS_CHECKED)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -158,7 +158,7 @@ public class SubFormFieldsPerDocumentCheckbox extends SubFormFieldsPerDocumentBa
    * String referencing group defined in &#x60;form_field_groups&#x60; parameter.
    * @return group
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "String referencing group defined in `form_field_groups` parameter.")
   @JsonProperty(JSON_PROPERTY_GROUP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

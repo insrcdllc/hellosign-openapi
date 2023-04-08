@@ -56,7 +56,7 @@ import com.dropbox.sign.ApiException;
     SubFormFieldsPerDocumentDropdown.JSON_PROPERTY_CONTENT
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type", visible = true)
 @JsonSubTypes({
   @JsonSubTypes.Type(value = SubFormFieldsPerDocumentCheckbox.class, name = "checkbox"),
@@ -108,7 +108,7 @@ public class SubFormFieldsPerDocumentDropdown extends SubFormFieldsPerDocumentBa
    * An input field for dropdowns. Use the &#x60;SubFormFieldsPerDocumentDropdown&#x60; class.
    * @return type
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "An input field for dropdowns. Use the `SubFormFieldsPerDocumentDropdown` class.")
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -139,7 +139,7 @@ public class SubFormFieldsPerDocumentDropdown extends SubFormFieldsPerDocumentBa
    * Array of string values representing dropdown values.
    * @return options
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @ApiModelProperty(required = true, value = "Array of string values representing dropdown values.")
   @JsonProperty(JSON_PROPERTY_OPTIONS)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
@@ -165,7 +165,7 @@ public class SubFormFieldsPerDocumentDropdown extends SubFormFieldsPerDocumentBa
    * Selected value in &#x60;options&#x60; array. Value must exist in array.
    * @return content
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Selected value in `options` array. Value must exist in array.")
   @JsonProperty(JSON_PROPERTY_CONTENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

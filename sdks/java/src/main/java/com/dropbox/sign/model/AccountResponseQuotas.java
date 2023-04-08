@@ -43,7 +43,7 @@ import com.dropbox.sign.ApiException;
     AccountResponseQuotas.JSON_PROPERTY_SMS_VERIFICATIONS_LEFT
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class AccountResponseQuotas {
   public static final String JSON_PROPERTY_API_SIGNATURE_REQUESTS_LEFT = "api_signature_requests_left";
   private Integer apiSignatureRequestsLeft;
@@ -87,7 +87,7 @@ public class AccountResponseQuotas {
    * API signature requests remaining.
    * @return apiSignatureRequestsLeft
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "API signature requests remaining.")
   @JsonProperty(JSON_PROPERTY_API_SIGNATURE_REQUESTS_LEFT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -113,7 +113,7 @@ public class AccountResponseQuotas {
    * Signature requests remaining.
    * @return documentsLeft
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Signature requests remaining.")
   @JsonProperty(JSON_PROPERTY_DOCUMENTS_LEFT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -139,7 +139,7 @@ public class AccountResponseQuotas {
    * Total API templates allowed.
    * @return templatesTotal
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Total API templates allowed.")
   @JsonProperty(JSON_PROPERTY_TEMPLATES_TOTAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -165,7 +165,7 @@ public class AccountResponseQuotas {
    * API templates remaining.
    * @return templatesLeft
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "API templates remaining.")
   @JsonProperty(JSON_PROPERTY_TEMPLATES_LEFT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -191,7 +191,7 @@ public class AccountResponseQuotas {
    * SMS verifications  remaining.
    * @return smsVerificationsLeft
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "SMS verifications  remaining.")
   @JsonProperty(JSON_PROPERTY_SMS_VERIFICATIONS_LEFT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

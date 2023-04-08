@@ -38,7 +38,7 @@ import com.dropbox.sign.ApiException;
     TeamCreateRequest.JSON_PROPERTY_NAME
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TeamCreateRequest {
   public static final String JSON_PROPERTY_NAME = "name";
   private String name = "Untitled Team";
@@ -70,7 +70,7 @@ public class TeamCreateRequest {
    * The name of your Team.
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The name of your Team.")
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

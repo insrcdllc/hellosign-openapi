@@ -44,7 +44,7 @@ import com.dropbox.sign.ApiException;
     ApiAppResponseOAuth.JSON_PROPERTY_CHARGES_USERS
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class ApiAppResponseOAuth {
   public static final String JSON_PROPERTY_CALLBACK_URL = "callback_url";
   private String callbackUrl;
@@ -85,7 +85,7 @@ public class ApiAppResponseOAuth {
    * The app&#39;s OAuth callback URL.
    * @return callbackUrl
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The app's OAuth callback URL.")
   @JsonProperty(JSON_PROPERTY_CALLBACK_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -111,7 +111,7 @@ public class ApiAppResponseOAuth {
    * The app&#39;s OAuth secret, or null if the app does not belong to user.
    * @return secret
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "The app's OAuth secret, or null if the app does not belong to user.")
   @JsonProperty(JSON_PROPERTY_SECRET)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -145,7 +145,7 @@ public class ApiAppResponseOAuth {
    * Array of OAuth scopes used by the app.
    * @return scopes
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Array of OAuth scopes used by the app.")
   @JsonProperty(JSON_PROPERTY_SCOPES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -171,7 +171,7 @@ public class ApiAppResponseOAuth {
    * Boolean indicating whether the app owner or the account granting permission is billed for OAuth requests.
    * @return chargesUsers
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Boolean indicating whether the app owner or the account granting permission is billed for OAuth requests.")
   @JsonProperty(JSON_PROPERTY_CHARGES_USERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

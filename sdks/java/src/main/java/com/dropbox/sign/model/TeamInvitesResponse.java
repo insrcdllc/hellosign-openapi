@@ -43,7 +43,7 @@ import com.dropbox.sign.ApiException;
     TeamInvitesResponse.JSON_PROPERTY_WARNINGS
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TeamInvitesResponse {
   public static final String JSON_PROPERTY_TEAM_INVITES = "team_invites";
   private List<TeamInviteResponse> teamInvites = null;
@@ -86,7 +86,7 @@ public class TeamInvitesResponse {
    * Contains a list of team invites and their roles.
    * @return teamInvites
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "Contains a list of team invites and their roles.")
   @JsonProperty(JSON_PROPERTY_TEAM_INVITES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
@@ -120,7 +120,7 @@ public class TeamInvitesResponse {
    * Get warnings
    * @return warnings
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_WARNINGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)

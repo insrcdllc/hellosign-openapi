@@ -39,7 +39,7 @@ import com.dropbox.sign.ApiException;
     TemplateUpdateFilesResponse.JSON_PROPERTY_TEMPLATE
 })
 @JsonIgnoreProperties(ignoreUnknown=true)
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TemplateUpdateFilesResponse {
   public static final String JSON_PROPERTY_TEMPLATE = "template";
   private TemplateUpdateFilesResponseTemplate template;
@@ -71,7 +71,7 @@ public class TemplateUpdateFilesResponse {
    * Get template
    * @return template
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_TEMPLATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
